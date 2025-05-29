@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.navbar__menu {
+  background: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#navbar__list li {
+  margin: 0 15px;
+}
+
+.menu__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu__link:hover,
+.menu__link.active-link {
+  background-color: #ff6f61;
+  color: white;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.6);
+  transform: scale(1.1);
+}
+
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+section.active {
+  box-shadow: 0 12px 25px rgba(255, 111, 97, 0.5);
+  border: 2px solid #ff6f61;
+  transform: scale(1.02);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+form label {
+  margin: 10px 0 5px 0;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  border-color: #ff6f61;
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 111, 97, 0.5);
+}
+
+button {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e65849;
+}
+
+.error-msg {
+  color: #e65849;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.comment {
+  background: #fef3f0;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 111, 97, 0.2);
+}
+
+.comment h3 {
+  margin: 0 0 5px 0;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 40px 15px;
+    padding: 20px;
+  }
+  
+  #navbar__list {
+    flex-direction: column;
+  }
+
+  #navbar__list li {
+    margin: 10px 0;
+  }
+}
