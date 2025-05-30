@@ -1,71 +1,41 @@
-Dynamic Navigation and Comments Page
-Project Overview
+# Dynamic Navigation and Comments Page
+
+## Project Overview
+
 This project creates a dynamic webpage with multiple content sections and a navigation menu built automatically using JavaScript. It includes:
 
-A navigation bar that updates based on the page sections.
+- A navigation bar that updates based on the page sections.
+- Smooth scrolling to sections when navigation links are clicked.
+- Highlighting of the currently active section and corresponding nav link.
+- A comments section with a form for users to submit their name, email, and comment.
+- Submitted comments are displayed dynamically on the page.
+- Responsive design with styling for usability on all devices.
 
-Smooth scrolling to sections when navigation links are clicked.
+## Features
 
-Highlighting of the currently active section and corresponding nav link.
+- **Dynamic Navigation:** The nav bar is built based on the existing page sections.
+- **Active Section Highlight:** As the user scrolls, the section currently near the top is highlighted along with its nav link.
+- **Smooth Scrolling:** Clicking nav links smoothly scrolls to the respective section.
+- **Comments Form:** Validates input and appends comments without reloading the page.
+- **Responsive Styling:** CSS adjusts layout and design for different screen sizes.
 
-A comments section with a form for users to submit their name, email, and comment.
+## Skills Used
 
-Submitted comments are displayed dynamically on the page.
-
-Responsive design with styling for usability on all devices.
-
-Features
-Dynamic Navigation: The nav bar is built based on the existing page sections.
-
-Active Section Highlight: As the user scrolls, the section currently near the top is highlighted along with its nav link.
-
-Smooth Scrolling: Clicking nav links smoothly scrolls to the respective section.
-
-Comments Form: Validates input and appends comments without reloading the page.
-
-Responsive Styling: CSS adjusts layout and design for different screen sizes.
-
-Skills Used
 This project demonstrates and requires knowledge of the following skills:
 
-HTML – Structuring the webpage content and form elements.
+- **HTML** – Structuring the webpage content and form elements.
+- **CSS** – Styling the layout, navigation, and responsive design.
+- **JavaScript** – Adding interactivity and dynamic content generation.
+- **DOM Manipulation** – Dynamically creating and updating elements (e.g., nav menu, comment section).
+- **Event Handling** – Managing user interactions like clicks and form submissions.
+- **Form Validation** – Checking for valid and complete user input.
+- **Responsive Design** – Making sure the layout works well on different screen sizes.
 
-CSS – Styling the layout, navigation, and responsive design.
+## Notes
 
-JavaScript – Adding interactivity and dynamic content generation.
-
-DOM Manipulation – Dynamically creating and updating elements (e.g., nav menu, comment section).
-
-Event Handling – Managing user interactions like clicks and form submissions.
-
-Form Validation – Checking for valid and complete user input.
-
-Responsive Design – Making sure the layout works well on different screen sizes.
-
-Notes
-Form input is validated for completeness and a basic email format.
-
-The active section and nav link are visually distinct for user clarity.
-
-CSS and JavaScript files are organized in css/ and js/ folders respectively.
 - Form input is validated for completeness and a basic email format.
 - The active section and nav link are visually distinct for user clarity.
 - CSS and JavaScript files are organized in `css/` and `js/` folders respectively.
 
-##Skills
-
-HTML – Structuring the content and form elements of the page.
-
-CSS – Styling the layout, navigation bar, form, and responsive design.
-
-JavaScript – Building the dynamic navigation menu, handling scroll behavior, form validation, and DOM manipulation.
-
-DOM Manipulation – Creating and updating elements dynamically (e.g., navigation items, comment entries).
-
-Event Handling – Managing user interactions such as clicking links and submitting forms.
-
-Responsive Design – Ensuring the page works well across various devices and screen sizes.
-
-Form Validation – Verifying that the user has entered valid input before accepting submissions.
 
 
