@@ -26,3 +26,20 @@ This project creates a dynamic webpage with multiple content sections and a navi
 - The active section and nav link are visually distinct for user clarity.
 - CSS and JavaScript files are organized in `css/` and `js/` folders respectively.
 
+##Skills
+
+HTML – Structuring the content and form elements of the page.
+
+CSS – Styling the layout, navigation bar, form, and responsive design.
+
+JavaScript – Building the dynamic navigation menu, handling scroll behavior, form validation, and DOM manipulation.
+
+DOM Manipulation – Creating and updating elements dynamically (e.g., navigation items, comment entries).
+
+Event Handling – Managing user interactions such as clicking links and submitting forms.
+
+Responsive Design – Ensuring the page works well across various devices and screen sizes.
+
+Form Validation – Verifying that the user has entered valid input before accepting submissions.
+
+
